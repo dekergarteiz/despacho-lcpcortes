@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despacho LCP Cortés | Contadores Públicos CDMX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .navy-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .accent-border { border-left: 4px solid #3b82f6; }
+    </style>
+</head>
+<body class="text-slate-800 bg-white">
+
+    <div class="bg-slate-900 text-white py-2 px-6 text-sm flex justify-between items-center">
+        <span><i class="fa-solid fa-location-dot mr-2 text-blue-400"></i> Carr. México - Toluca 1725, Cuajimalpa</span>
+        <a href="tel:5548340076" class="hover:text-blue-400 transition font-bold italic">Llamar: 55 4834 0076</a>
+    </div>
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="leading-none">
+                <div class="text-xl font-black text-slate-900 uppercase tracking-tighter">LCP CORTÉS</div>
+                <div class="text-[10px] text-blue-600 font-bold tracking-[0.2em]">CONTADORES PÚBLICOS</div>
+            </div>
+            <a href="https://wa.me/525548340076?text=Hola,%20solicito%20mi%20asesoría%20fiscal%20sin%20costo" 
+               class="bg-blue-600 text-white px-5 py-2 rounded text-sm font-bold hover:bg-blue-700 transition">
+               ASESORÍA SIN COSTO
+            </a>
+        </div>
+    </nav>
+
+    <section class="navy-gradient py-20 px-6 text-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 italic leading-tight">Expertos en Soluciones Contables y Fiscales</h1>
+            <p class="text-slate-300 text-lg mb-10 max-w-2xl mx-auto italic">
+                Honestidad, profesionalismo y resultados. Protegemos tu patrimonio con estrategias fiscales sólidas.
+            </p>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white/10 p-4 rounded-lg border border-white/10">
+                    <span class="block text-2xl font-bold">5.0</span>
+                    <span class="text-xs text-blue-300 uppercase tracking-widest font-bold italic underline">Calificación Google</span>
+                </div>
+                <div class="bg-white/10 p-4 rounded-lg border border-white/10">
+                    <span class="block text-2xl font-bold">100%</span>
+                    <span class="text-xs text-blue-300 uppercase tracking-widest font-bold italic underline">Recomendables</span>
+                </div>
+                <div class="bg-white/10 p-4 rounded-lg border border-white/10">
+                    <span class="block text-2xl font-bold">Gratis</span>
+                    <span class="text-xs text-blue-300 uppercase tracking-widest font-bold italic underline">Primera Asesoría</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-900">Nuestros Servicios</h2>
+            <div class="h-1 w-20 bg-blue-600 mx-auto mt-4"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="p-6 bg-slate-50 rounded-xl accent-border">
+                <h3 class="text-xl font-bold mb-3 italic">Estrategia Fiscal</h3>
+                <p class="text-slate-600 italic">Análisis profundo de tu situación tributaria para optimizar el cumplimiento de obligaciones.</p>
+            </div>
+            <div class="p-6 bg-slate-50 rounded-xl accent-border">
+                <h3 class="text-xl font-bold mb-3 italic">Contabilidad General</h3>
+                <p class="text-slate-600 italic">Gestión precisa de estados financieros y registros contables para personas físicas y morales.</p>
+            </div>
+            <div class="p-6 bg-slate-50 rounded-xl accent-border">
+                <h3 class="text-xl font-bold mb-3 italic">Asesoría sin Costo</h3>
+                <p class="text-slate-600 italic">Revisamos tu situación fiscal actual sin compromiso para detectar riesgos u oportunidades.</p>
+            </div>
+            <div class="p-6 bg-slate-50 rounded-xl accent-border">
+                <h3 class="text-xl font-bold mb-3 italic">Atención Personalizada</h3>
+                <p class="text-slate-600 italic">Servicio directo por el Lic. Genaro Cortés, garantizando transparencia y resolución.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-100">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-center mb-12 italic">Lo que dicen nuestros clientes</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-yellow-400 mb-2 italic">★★★★★</div>
+                    <p class="italic text-slate-700 italic">"Excelente despacho, realmente siempre ayudando y resolviendo. 100% recomendables."</p>
+                    <p class="mt-4 font-bold text-sm text-slate-500 italic">— Cristopher Villegas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 text-center">
+        <h2 class="text-3xl font-bold mb-8 italic italic italic">¿Listo para poner en orden tu situación fiscal?</h2>
+        <a href="tel:5548340076" class="inline-block bg-slate-900 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-800 transition shadow-xl italic">
+            <i class="fa-solid fa-phone mr-2"></i> Agendar Llamada
+        </a>
+    </section>
+
+    <a href="https://wa.me/525548340076" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
